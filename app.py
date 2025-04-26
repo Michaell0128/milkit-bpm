@@ -27,7 +27,7 @@ if submitted:
         "memo": memo
     }
     
-    webhook_url = "https://hook.eu2.make.com/8arlaihj3oe2kw2xd3js5ehb96v4g2kn"
+    webhook_url = "https://hook.eu2.make.com/p82nvibohha7zv1nzojlssfcryzmer3q"
     response = requests.post(webhook_url, json=data)
     
     if response.status_code == 200:
